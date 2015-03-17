@@ -34,8 +34,8 @@ public String oprExecution (int arg1, int opr, int arg2) {
 			else {
 				System.out.println ("The Operation is prohibited");
 				result = "Error";
-				break;
 			}
+			break;
 		}
 		default: {
 			opr = 0;
